@@ -2,3 +2,13 @@
     width: 100%;
     height: 500px;
 }
+
+.button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.area_label{
+    font-size:20pxs ;
+}
