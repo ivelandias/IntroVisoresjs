@@ -9,3 +9,10 @@ areas.addEventListener('click', function (){
     console.log("Vamos a calcular areas")
     calculateAreas();
 })
+
+
+let centroid_distance=document.getElementById("centroid_distance");
+centroid_distance.addEventListener('click', function (){
+    console.log("Vamos a calcular distancia entre centroides")
+    calculateDistance();
+})
