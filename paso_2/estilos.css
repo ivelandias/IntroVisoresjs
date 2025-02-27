@@ -3,9 +3,10 @@
     height: 500px;
 }
 
-.button{
+.boton{
     background-color: blue;
     color: white;
+    height: 40 px;
     font-size: 20px;
 }
 
