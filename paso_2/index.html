@@ -14,11 +14,18 @@
     href="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.css"
     />
     <script src="https://unpkg.com/@geoman-io/leaflet-geoman-free@latest/dist/leaflet-geoman.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@7/turf.min.js"></script>
     <link rel="stylesheet" href="estilos.css">
-    
+
 </head>
 <body>
     <div id="map"></div>
+    <button  id="centroid"> Centroides </button>
+    <button  id="centroid_distance"> Distancia de centroides </button>
+    <button  id="areas"> Áreas </button>
+    <button  id="intersection"> Detectar intersecciones </button>
+
 </body>
-<script src="program.js"></script>
+<script src="inicializar_mapa.js"></script>
+<script src="manejadores.js"></script>
 </html>
